@@ -1,0 +1,4 @@
+flask
+pymongo
+dnspython - whenever you are using MongoDB Atlas use this package to connect to the database
+python--dotenv
