@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        let age = prompt("<p>Enter your age below");
+        
+        if(age>=18){
+            document.getElementById("output").innerHTML = "<h2> Your are elegible for this site."
+        }else{
+            document.getElementById("output").innerHTML = "<h2> Your are not elegible for this site."
+        }
+
+        alert("Warning!!");
+
+        //
+
+        let mark = prompt("Enter your mark");
+        let result = "";
+
+        if(mark>=90){
+            result = "A";
+        }
+        else if(mark<90 && mark >=80){
+            result = "B";
+        }else{
+            result = "Your are not elegible for this job."
+        }
+
+        document.getElementById("output").innerHTML = result;
+
+    </script>
+</body>
+</html>
